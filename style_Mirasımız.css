@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+html,body{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.menu{
+    background-color:burlywood;
+    text-align: center;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px;
+    transition: background-color 1s;
+}
+.aktif,.menu ul li:hover{
+    background-color: #d4c995;
+    border-radius: 10px;
+}
+.menu .fas{
+    margin-right: 8px;
+}
+
+
+
+/* ÜST KISIM SADECE ÜST MENÜ İÇİN */
+
+
+
+.container{
+    margin-top: 180px;
+    display: flex;
+    width:  auto;
+    height: auto;
+    justify-content: center;
+    align-items: center; 
+}
+.kutu{
+    background-color: rgb(123, 212, 212);
+    width:  300px;
+    height: 300px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: background-color 1s;
+
+}
+.metin{
+    font-size: 30px;
+    padding-top: 120px;
+    color: rgb(245, 219, 219);
+}
+
+.metin p{
+    padding-top: 120px;
+}
+
+.kutu:hover{
+    background-color: rgb(241, 190, 161);
+    
+}
+p:hover{
+    color: #07BFF5;
+}
+
+
+
+ 
