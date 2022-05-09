@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+html,body{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.menu{
+    background-color:burlywood;
+    text-align: center;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px;
+    transition: background-color 1s;
+}
+.aktif,.menu ul li:hover{
+    background-color: #d4c995;
+    border-radius: 10px;
+}
+.menu .fas{
+    margin-right: 8px;
+}
+
+
+
+/* ÜST KISIM SADECE ÜST MENÜ İÇİN */
+
+
+
+
+/* .container{
+    background-color: blue;
+    display: flex;
+    height: 300px;
+    height: 600px;
+
+} */
+#left_side{
+    padding: 24px;
+    margin: right;
+    height: 976px;
+    margin: 100px 0 100px 100px;
+    width: 30%;
+    display: inline-block;
+    background-color:#494e5f;
+    border-radius: 10px;
+}
+#right_side{
+    position: relative;
+    right: 4px;
+    padding: 150px;
+    height: 100%;
+    max-height: 725px;
+    width: 35%;
+    background-color:  rgb(224, 209, 203);
+    display: inline-block;
+    border-radius: 10px;
+}
+.foto{
+    background-color:#494e5f;
+}
+img{
+    width: 100%;
+    max-width: 200px;
+    margin: 20px 150px 20px 130px;
+    background-color: #494e5f;
+}
+h1{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+font-family: 'Tapestry', cursive;
+color: rgb(194, 194, 170);
+}
+h2{
+    padding: 50px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Tapestry', cursive;
+    color: rgb(194, 194, 170);
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+font-family: 'Tapestry', cursive;
+}
+.calısma{
+    text-align: center;
+    background-color: #d4c995;
+    margin:150px 150px 20px 150px;
+    height: 100%;
+    max-height: 40px;
+    padding:15px 50px 15px 50px;
+}
+h3{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Tapestry', cursive;
+}
+
+
+

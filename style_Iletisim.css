@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+html,body{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-color: aliceblue;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.menu{
+    background-color:burlywood;
+    text-align: center;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px;
+    transition: background-color 1s;
+}
+.aktif,.menu ul li:hover{
+    background-color: #d4c995;
+    border-radius: 10px;
+}
+.menu .fas{
+    margin-right: 8px;
+}
+
+
+/* ÜST KISIM SADECE ÜST MENÜ İÇİN */
+
+
+
+form{
+    text-align: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+
+}
+.firstitem{
+    padding-top: 80px;
+}
+p{
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif;
+font-family: 'Macondo', cursive;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Tapestry', cursive;
+}
+
+form input{
+    transition: 0.2s ease-in;
+    border: none;
+    background: none;
+    text-align: center;
+    outline: none;
+    color: rgb(0, 90, 159);
+    border-radius: 40px;
+}
+
+form input[type="text"], form input[type="password"], form input[type="email"]{
+    height: 35px;
+    border: 2px solid #2980b9;
+    transition: 0.2s ease-in;
+
+}
+form input[type="submit"],form input[type="reset"]{
+    background-color: #00c3a9;
+    border: 2px solid #140964;
+    box-sizing: border-box;
+    height: 50px;
+    width: 15%;
+    cursor: pointer;
+}
+
+
+form input[type="text"]:focus, form input[type="password"]:focus, form input[type="email"]:focus{
+    width: 20%;
+    border: 2px solid #16a085;
+
+}
+form input[type="submit"]:hover,form input[type="reset"]:hover{
+    background: #2616a0;
+    color: white;
+}
+
+textarea{
+    border-radius: 20px;
+}
+
+
+
+
+
+
+ 
