@@ -5,6 +5,12 @@
     </title>
     <link rel="stylesheet" href="style_Iletisim.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Macondo&family=PT+Sans&family=Tapestry&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Macondo&family=PT+Sans&family=Tapestry&family=Water+Brush&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="menu">
@@ -20,6 +26,83 @@
 
 
     <!-- ÜST KISIM SADECE MENÜ İÇİN -->
+
+
+
+    <script>
+        function validateForm(){
+            var a =document.forms["myForm"]["ad"].value;
+            if(x==""){
+                alert("İsim Alanını Boş Doldurunuz...");
+                return false;
+            }
+
+        }
+    </script>
+
+
+    <form name="myForm"  method="post" onsubmit=" return validateForm()" action="yazdır.php">
+        <!-- <p class="firstitem">Ad:</p> -->
+        <label for="adı">
+            <p class="firstitem">Ad:</p>
+        </label>
+        <br>
+        <input type="text" name="ad" id="adı" placeholder="Adınız..."><br><br>
+
+        <label for="soyadı">
+            <p>Soyad:</p>
+        </label>
+        <br>
+        <input type="text" name="soyad" id="soyadı" placeholder="Soyadınız..."><br><br>
+        
+        <p>Cinsiyet:</p>
+        <br>
+        <input type="radio" name="cinsiyet" value="erkek">Erkek
+        <input type="radio" name="cinsiyet" value="kadın">Kadın
+        <br><br>
+        <label for="email">
+            <p>E-mail:</p>
+        </label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="E-mailiniz..."><br><br>
+        <label for="password">
+            <p>Şifre:</p>
+        </label>
+        <br>
+        <input type="password" id="password" name="şifre" placeholder="Şifreniz..."><br><br>
+        <p>Sitemizde Beğendiğiniz Sayfalar:</p>
+        <br>
+        <input type="checkbox" name="öneri" value="giriş">Hakkımda Sayfası
+        <br>
+        <input type="checkbox" name="öneri" value="giriş">Özgeçmiş Sayfası
+        <br>
+        <input type="checkbox" name="öneri" value="giriş">Memleketim Sayfası
+        <br>
+        <input type="checkbox" name="öneri" value="giriş">Mirasımız Sayfası
+        <br>
+        <input type="checkbox" name="öneri" value="giriş">lgi Alanlarım Sayfası
+        <br><br>
+        <p>Kaç Yıldız Verirsiniz:</p>
+        <br>
+        <select name="yıldız">
+            <option value="bir">1 Yıldız</option>
+            <option value="iki">2 Yıldız</option>
+            <option value="üç" >3 Yıldız</option>
+            <option value="dört">4 Yıldız</option>
+            <option value="beş" selected>5 Yıldız</option>
+        </select><br><br>
+        <label for="istek">
+            <p>İstek ve Arzularınız:</p>
+        </label>
+        <br><br>
+        <textarea name="öneri" rows="15" cols="50" id="istek">
+        Önerileriniz...
+        </textarea><br>
+        <br>
+        <input type="submit" value="GÖNDER">
+        <input type="reset" value="SIFIRLA">
+    </form>
+    <br><br><br><br><br><br>
 
 
     

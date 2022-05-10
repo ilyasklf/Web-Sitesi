@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background-color:aliceblue ;
+}
+h1{
+    padding-top: 7%;
+    text-align: center;
+}
+p{
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Macondo', cursive;
+}
+.genelbilgi{
+    padding: 20px;
+    margin: auto;
+    width: 25%;
+    height: 10%;
+    font-size: 20px;
+    background-color: rgb(69, 69, 194);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,8);
+
+}
+.genelbilgi:hover{
+    background-color: rgb(255, 81, 84);
+    color: white;
+    transition: background-color 1s;
+}
+.işlem{
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 10%;
+    height: 5%;
+    background-color: blueviolet;
+    transition: background-color 1s;
+    box-shadow: 0 0 10px rgba(0,0,0,8);
+}
+.işlem a{
+    
+    text-decoration: none;
+    color: aliceblue;
+}
+.işlem:hover{
+    background-color: rgb(204, 201, 23);
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+font-family: 'Koulen', cursive;
+font-family: 'Macondo', cursive;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Tapestry', cursive;
+font-family: 'Water Brush', cursive;
+}
